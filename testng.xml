@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GeneralStoreSuite" >
+	<listeners>
+		<listener class-name="utilities.Listener"></listener>
+	</listeners>
+	
+  <test name="GeneralStoreTest" >
+    <classes>
+		  <class name="automationScript.LoginTest"/> 
+		  <class name="automationScript.ProductTest"/>     
+		  <class name="automationScript.CartTest"/>     
+		  <class name="automationScript.GoogleWebViewTest"/>       
+    </classes>
+  </test>  
+   
+</suite> 
+
+
